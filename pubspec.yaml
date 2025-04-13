@@ -1,0 +1,46 @@
+name: marikinanavigator_app
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.1
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.0
+  http: ^0.13.0
+#  geolocation: ^3.1.0
+  location: ^5.0.0
+  url_launcher: ^6.1.14
+#  flutter_typeahead: ^3.0.0
+  geocoding: ^2.1.0
+#  flutter_typeahead: ^3.0.0
+
+
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+      - assets/images/MarikinaNav_logo.png
+      - assets/marikina.geojson
+      - assets/images/custom_marker.png
+      - assets/images/landmark/
+      - assets/images/tricycle.png
+      - assets/images/jeepney.png
