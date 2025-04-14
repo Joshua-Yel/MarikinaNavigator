@@ -19,7 +19,7 @@ dependencies:
   latlong2: ^0.8.0
   http: ^0.13.0
 #  geolocation: ^3.1.0
-  location: ^5.0.0
+  location: ^8.0.0
   url_launcher: ^6.1.14
 #  flutter_typeahead: ^3.0.0
   geocoding: ^2.1.0
